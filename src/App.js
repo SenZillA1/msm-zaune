@@ -14,20 +14,6 @@ function App() {
         p > Vaš partner za moderna rešenja u izradi ograda. < /p> < /
         header >
 
-        { /* Dodajte Link za povratak na početnu stranicu */ } <
-        Link to = "/" >
-        <
-        button > Početna stranica < /button> < /
-        Link >
-
-        { /* Definišite rute za različite stranice */ } <
-        Route path = "/"
-        exact component = { Home }
-        /> <
-        Route path = "/register"
-        component = { Register }
-        />
-
         <
         footer >
         <
